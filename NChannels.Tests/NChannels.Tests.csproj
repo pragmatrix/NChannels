@@ -8,7 +8,7 @@
     <ProjectGuid>{CB197743-FFA9-4A65-B35F-9B355F7DD286}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Channels.Tests</RootNamespace>
+    <RootNamespace>NChannels.Tests</RootNamespace>
     <AssemblyName>Channels.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

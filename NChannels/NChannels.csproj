@@ -8,7 +8,7 @@
     <ProjectGuid>{9307D4BC-D70B-4500-A83E-FAC4FD13E427}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Channels</RootNamespace>
+    <RootNamespace>NChannels</RootNamespace>
     <AssemblyName>Channels</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

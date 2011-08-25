@@ -3,7 +3,7 @@ This is a small hack to support a very limited subset of the channel concept of 
 Supported are
 
 - Synchronous, single value channels.
-- Select without Default
+- Select without default paths.
 
 For examples, take a look at the testcases in the directory NChannels.Tests.
 

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Channels
+namespace NChannels
 {
 	public static class Spawn
 	{
-		public static void action(Action action)
+		public static void program(Action action)
 		{
 			Task.Factory.StartNew(action);
 		}

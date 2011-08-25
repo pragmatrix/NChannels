@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Linq;
+using NChannels;
 using NUnit.Framework;
 
 namespace Channels.Tests
@@ -8,14 +9,14 @@ namespace Channels.Tests
 	class TestSelect
 	{
 
-		[Test]
+		[Test, ExpectedException(typeof(ChannelClosedException))]
 		public void dualChannelPrinter()
 		{
 			var intChan = new Channel<int>();
 			var stringChan = new Channel<string>();
 
-			Spawn.action(() => sendIntegers(intChan));
-			Spawn.action(() => sendStrings(stringChan));
+			Spawn.program(() => sendIntegers(intChan));
+			Spawn.program(() => sendStrings(stringChan));
 
 			for (; ; )
 				Select.channels(

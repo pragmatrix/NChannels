@@ -1,5 +1,6 @@
 Channels.6.0.ReSharper.user
 *.suo
+*.Resharper.user
 NChannels.Tests/bin/
 NChannels.Tests/obj/
 NChannels/bin/

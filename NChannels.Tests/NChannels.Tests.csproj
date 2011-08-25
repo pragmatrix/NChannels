@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestSelect.cs" />
-    <Compile Include="SimpleSendReceive.cs" />
+    <Compile Include="TestSendReceive.cs" />
     <Compile Include="TestPrerequisites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

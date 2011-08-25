@@ -40,7 +40,7 @@ namespace Channels
 				waitNotBusy();
 
 				if (_state == State.Closed)
-					throw new Exception("Sending failed, channel closed");
+					throw new ChannelClosedException("sending failed");
 
 				_value = value;
 				setState(State.Occupied);
@@ -50,7 +50,7 @@ namespace Channels
 				waitNotBusy();
 
 				if (_state == State.Closed)
-					throw new Exception("Sending failed, channel closed");
+					throw new ChannelClosedException("sending failed");
 
 				Debug.Assert(_state == State.FreeToSend);
 			}
@@ -93,17 +93,14 @@ namespace Channels
 			}
 		}
 
-		// WaitHandle == null: TypeT available, 
-		// otherwise wait and call asyncReceive again.
-
-		// throws if the channel is closed (no selects with closed channels are allowed).
+		// throws if the channel is closed (selects with closed channels are not allowed).
 
 		public bool tryReceive(out TypeT value)
 		{
 			lock (_)
 			{
 				if (_state == State.Closed)
-					throw new Exception("tryReceive failed, channel closed");
+					throw new ChannelClosedException("tryReceive failed");
 
 				if (_state == State.Occupied)
 				{

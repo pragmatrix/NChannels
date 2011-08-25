@@ -1,0 +1,7 @@
+Channels.6.0.ReSharper.user
+*.suo
+NChannels.Tests/bin/
+NChannels.Tests/obj/
+NChannels/bin/
+NChannels/obj/
+packages/

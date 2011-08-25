@@ -1,8 +1,7 @@
 ﻿using System;
-using NChannels;
 using NUnit.Framework;
 
-namespace Channels.Tests
+namespace NChannels.Tests
 {
 	[TestFixture]
 	sealed class TestSendReceive

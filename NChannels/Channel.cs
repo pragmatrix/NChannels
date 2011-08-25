@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Threading;
 
-namespace Channels
+namespace NChannels
 {
 	public sealed class Channel<TypeT> : IDisposable
 	{

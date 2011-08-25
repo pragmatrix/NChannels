@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Channels
+namespace NChannels
 {
 	[Serializable]
 	public sealed class ChannelClosedException : Exception

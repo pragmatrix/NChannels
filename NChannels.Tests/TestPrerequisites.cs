@@ -2,7 +2,7 @@
 using System.Threading;
 using NUnit.Framework;
 
-namespace Channels.Tests
+namespace NChannels.Tests
 {
 	[TestFixture]
 	public class TestPrerequisites
@@ -13,7 +13,6 @@ namespace Channels.Tests
 			int worker;
 			int completionPort;
 			ThreadPool.GetMaxThreads(out worker, out completionPort);
-
 			Debug.WriteLine("worker threads: " + worker);
 			Debug.WriteLine("completion port threads: " + completionPort);
 		}

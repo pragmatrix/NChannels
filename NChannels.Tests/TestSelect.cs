@@ -1,9 +1,8 @@
 ﻿using System.Diagnostics;
 using System.Linq;
-using NChannels;
 using NUnit.Framework;
 
-namespace Channels.Tests
+namespace NChannels.Tests
 {
 	[TestFixture]
 	class TestSelect

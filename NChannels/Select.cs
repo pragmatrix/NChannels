@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Channels
+namespace NChannels
 {
 	public static class Select
 	{

@@ -1,0 +1,11 @@
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\Channels.Tests.dll
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\Channels.Tests.pdb
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\nunit.framework.dll
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\nunit.mocks.dll
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\pnunit.framework.dll
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\nunit.framework.xml
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\obj\Debug\Channels.Tests.dll
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\obj\Debug\Channels.Tests.pdb
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\Channels.dll
+C:\cygwin\home\armin\dev\Channels\Channels.Tests\bin\Debug\Channels.pdb
